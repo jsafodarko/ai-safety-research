@@ -20,15 +20,16 @@ How do large language models (LLMs) enforce ethical boundaries when faced with r
  - Attribution (Y/N)
 
 ## Key Findings
+Anthropic is stricter about copying and better at giving credit, while OpenAI is more consistent but generally more willing to help with copying requests.
 1. API Differences:
-- Anthropic shows stronger boundaries on direct requests (mean 1.92 vs OpenAI's 4.50)
-- Anthropic provides more attribution (66.67% vs 8.33% for direct requests)
-- OpenAI shows more consistent responses (lower standard deviation)
+- Anthropic shows strongest boundaries under pressure (mean 1.33 vs OpenAI's 4.00)
+- Anthropic provides highest attribution under pressure (100% vs OpenAI's 25%)
+- OpenAI shows more consistent responses (lower standard deviation especially in educational/subtle)
 
 2. Category Patterns:
 - Educational/Subtle requests received higher scores (weaker boundaries)
-- Direct requests triggered stronger boundaries from Anthropic
-- Pressure attempts received mixed responses from both APIs
+- Pressure requests triggered strongest boundaries from Anthropic (1.33)
+- OpenAI maintains high copying scores (4.00-4.58) regardless of request type
 
 ## Tools Used
 - Google Colab
