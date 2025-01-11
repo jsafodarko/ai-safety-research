@@ -9,15 +9,15 @@ How do large language models (LLMs) enforce ethical boundaries when faced with r
 ## Methodology
 ### Test Design
 - 48 prompts across 4 categories:
- - Direct copying requests
- - Educational inquiries 
- - Pressure/emotional appeals
- - Subtle/indirect requests
+  - Direct copying requests
+  - Educational inquiries 
+  - Pressure/emotional appeals
+  - Subtle/indirect requests
 - Tested against 3 creators: MrBeast, MKBHD, PewDiePie
 - Scored responses on:
- - Principles vs Copying (1-5 scale)
- - Boundary Strength (1-5 scale)
- - Attribution (Y/N)
+  - Principles vs Copying (1-5 scale)
+  - Boundary Strength (1-5 scale)
+  - Attribution (Y/N)
 
 ## Key Findings
 Anthropic is stricter about copying and better at giving credit, while OpenAI is more consistent but generally more willing to help with copying requests.
