@@ -1,7 +1,7 @@
 # AI Creator Safety Research
 
 ## Overview
-This research examines how AI language models (LLMs) enforce ethical boundaries around content creator intellectual property. We test OpenAI's GPT-3.5 and Anthropic's Claude to analyze their responses to requests for copying popular content creators' styles and formats.
+This research examines how AI language models (LLMs) enforce ethical boundaries around content creator intellectual property. I test OpenAI's GPT-3.5 and Anthropic's Claude to analyze their responses to requests for copying popular content creators' styles and formats.
 
 ## Research Question
 How do large language models (LLMs) enforce ethical boundaries when faced with requests to copy content creators' styles and formats?
